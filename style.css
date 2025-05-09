@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+  }
+  
+  #drink img {
+    width: 100px;
+    height: auto;
+  }
+  
+  #trashcan,
+  #david {
+    width: 400px;
+    height: auto;
+    cursor: pointer;
+  }
+  #game-message {
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(43, 145, 163, 0.8);
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    display: none;
+  }
+  

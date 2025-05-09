@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faxe Kondi spil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Giv David den rigtige Faxe Kondi!</h1>
+  <div id="game-container">
+    <img id="trashcan" src="image/skrald.jpg" alt="Skraldespand">
+    <div id="drink"></div>
+    <img id="david" src="image/david.png" alt="David">
+  </div>
+  <p id="score">Point: 0</p>
+  <p id="timer">Tid: 60 sek.</p>
+
+  
+  <div id="game-message" style="display: none;">
+    <p id="game-over-text"></p>
+    <button onclick="restartGame()">Start forfra</button>
+  </div>
+  <script src="script.js"></script>
+  <!-- TypeIt.js bibliotek -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.1/dist/typeit.min.js"></script>
+
+</body>
+</html>
